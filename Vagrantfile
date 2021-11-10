@@ -29,7 +29,7 @@ Vagrant.configure("2") do |config|
   # config.vm.network "public_network"
 
   # configuración del nombre de maquina 
-  config.vm.hostname = "utn-devops.localhost"
+  config.vm.hostname = "utn-devops.GigaEth"
   config.vm.provider "virtualbox" do |v|
 	v.name = "utn-devops-vagrant-ubuntu"
   end
